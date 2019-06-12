@@ -237,7 +237,7 @@
             <version>${poi.version}</version>
         </dependency>
         
-		<dependency>
+	<!-- 	<dependency>
 			<groupId>com.baidu</groupId>
 			<artifactId>ueditor</artifactId>
 			<version>1.1.1</version>
@@ -256,7 +256,7 @@
 			<groupId>org.comet4j</groupId>
 			<artifactId>comet4j</artifactId>
 			<version>0.1.8</version>
-		</dependency>
+		</dependency>  -->
 
 		<dependency>
 			<groupId>javax.servlet</groupId>
@@ -287,7 +287,7 @@
 					<target>1.7</target>
 					<encoding>UTF-8</encoding>
 					<compilerArguments>
-						<extdirs>${project.basedir}/lib</extdirs>
+						<extdirs>lib</extdirs>
 					</compilerArguments>
 				</configuration>
 			</plugin>
